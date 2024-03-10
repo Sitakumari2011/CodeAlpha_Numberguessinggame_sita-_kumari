@@ -12,9 +12,9 @@ int main ()
     do{
         cout<<"Enter Guess (1-100): ";
         cin>>guess;
-        else if(guess>number)
+        if(guess>number)
         cout<<"Guess lower!" << endl;
-        else else if(guess<number)
+        else if(guess<number)
         cout<<"Guess Higher!" <<endl;
         else
         cout<<"You Won!" <<endl;
